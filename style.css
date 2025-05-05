@@ -1,5 +1,32 @@
+body{
+ background-color: rgb(25, 23, 67);
+}
 
+.calculadora{
+    background: rgba(255, 255, 255, 0.3);
+    width: 260px;
+    height: 300px;
+}
 
+#inputNumeros{
+    width: 200px;
+    padding:10px;
+    margin:14px;
+    background-color: rgb(34, 34, 34);
+    border:none;
+}
 
+.botoes{
+    width: 260px;
+    height: 235px;
+    background-color: brown;
+    display: grid;
+    grid-template-columns:repeat(4, 1fr) ;
+}
+
+.botoes:hover{
+    
+    
+}
 
 /* @media...*/
